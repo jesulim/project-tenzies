@@ -62,7 +62,7 @@ export default function App() {
     <main>
       {tenzies && <Confetti />}
       <h1 className="title">Tenzies</h1>
-      <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
+      <p className="instructions">Tira hasta que todos los dados sean iguales. Haz clic en cada dado para congelarlo en su valor actual entre tiradas.</p>
       <div className='dice-container'>
         {diceElements}
       </div>
@@ -70,7 +70,7 @@ export default function App() {
         className='roll-dice'
         onClick={rollDice}
       >
-        {tenzies ? "New Game" : "Roll"}
+        {tenzies ? "Nuevo Juego" : "Rodar"}
       </button>
     </main>
   )
